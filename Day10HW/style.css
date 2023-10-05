@@ -1,0 +1,16 @@
+.navbar {
+    border-spacing: 40px;
+    background-color: rgb(144, 211, 201);
+    border: 1px solid #365661;
+    color:#081826;
+}
+
+.yes {background-color: rgb(226, 255, 251);}
+
+.col {
+    color: #081826;
+}
+
+.h1 {
+    color: #365661
+}
