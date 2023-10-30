@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+</head>
+<body>
+    <h1>Javascript</h1>
+
+    <h2>Onclick Events</h2>
+    <a href="https://www.google.com/" target="_blank" onclick="alert('Do not leave the website')">Google</a>
+    <hr>
+    <h2>Secret Message Button</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='secret infomation';
+     getElementById('secret').style.display='block'">Reveal</button>
+     <button onclick="getElementById('secret').style.display='none'">Hide</button>
+
+     <p></p>
+        <script> 
+        //alert Hi
+        </script>
+
+     <form id="name">
+        <label for="first">First name:</label><br>
+        <input type="text" id="first" name="first" value=""><br>
+        <label for="last">Last name:</label><br>
+        <input type="text" id="last" value=" "><br>
+        <label for="age">Age:</label><br>
+        <input type="text" id="age" value=" "><br>
+        </form>
+        <br>
+        <button onclick="document.getElementById('name').innerHTML='Okay'">Submit</button>
+
+        <hr>
+        <p>Two Truths and A Lie:</p>
+
+        <form id="twoone">
+             <input type="radio" id="T" name="2T&L" value="True">
+            <label for="html">I have 9 monopoly boards</label><br>
+            <input type="radio" id="L" name="2T&L" value="Lie">
+            <label for="css">I have 8 flashlights</label><br>
+            <input type="radio" id="2T" name="2T&L" value="True">
+            <label for="javascript">I have a watering can on my desk</label>
+            <br>
+            <button onclick="document.getElementById('twoone').innerHTML='Check your answer below'">
+            Submit </button>
+
+                <p id="yes"></p>
+            <button onclick="document.getElementById('yes').innerHTML='I do not have 8 flashlights'">Reveal</button>
+
+        </form>
+
+
+
+</body>
+</html>
