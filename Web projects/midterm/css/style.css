@@ -1,0 +1,27 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: darkcyan;
+}
+.nav {
+    list-style: lower-roman;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+#Invention {
+    color: darkblue;
+}
+#TDA {
+    font-family:cursive
+}
+#where {
+    color:rgb(rgb(23, 184, 196), green, blue);
+    font-family: monospace;
+    outline: 3px;
+}
