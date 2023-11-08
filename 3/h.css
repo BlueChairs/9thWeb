@@ -1,4 +1,9 @@
-.grid-container {
+table, td, th {
+    border: 1px solid black;
+    
+ }
+
+ .grid-container {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: 22% 3% 25% 25% 3% 22%;
@@ -37,7 +42,7 @@ font-style: normal;
 
 .navul {
     list-style-type: none;
-    margin: 0;
+  margin-left: auto;
   padding: 0;
   overflow: hidden;
   background-color: #ede7d7;
@@ -148,17 +153,3 @@ font-style: normal;
 
 
  
- .cakes {
-    grid-column: 2/ span 4;
-    grid-row: 3;
- }
-
- .example {
-    grid-column: 2/ span 4;
-    grid-row: 4;
- }
-
-.extra {
-    grid-column: 2/ span 4;
-    grid-row: 5;
-}
