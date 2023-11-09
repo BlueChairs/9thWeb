@@ -375,3 +375,22 @@ font-style: normal;
 .seventeen {
             grid-column: 2/ span 4;
             grid-row: 23;}
+
+
+
+
+
+
+
+.wedd {
+    grid-column: 2/ span 4;
+    grid-row: 4;
+}
+
+.padd {
+    padding: 5px;
+}
+.car2 {
+    grid-column: 3/ span 2;
+    grid-row: 5;
+}
