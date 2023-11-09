@@ -163,13 +163,14 @@ font-style: normal;
  }
 
 .extra {
-    grid-column: 2/ span 4;
+    grid-column: 3/ span 2;
     grid-row: 5;
 }
 
 .SignatureCakes {
     grid-column: 2/ span 4;
     grid-row: 6;
+    border: 0px;
 }
 
 .imgborder {
@@ -181,12 +182,108 @@ font-style: normal;
     width: 320px;
     height: 225px;
     padding: 10px;
-    border: 5px solid #93823D;
-    background-color: #f1e0c1;
     margin: 0;
+}
+.first {
+    border-top: 4px solid #93823D;
+    border-bottom: 4px solid #93823D;
+    border-right: 4px solid #93823D;
+    background-color: #F5EEE9;
 }
 
 .one {
     grid-column: 2/ span 4;
-    grid-row: 6;
+    grid-row: 7;
+}
+
+.second {
+    border-top: 4px solid #9b7226;
+    border-bottom: 4px solid #9b7226;
+    border-left: 4px solid #9b7226;
+    background-color: #eee6bf;
+}
+
+.two {
+    grid-column: 2/ span 4;
+    grid-row: 8;
+}
+
+.third {
+    border-top: 4px solid #73273B;
+    border-bottom: 4px solid #73273B;
+    border-right: 4px solid #73273B;
+    background-color: #f5f4d8;
+}
+.three {
+    grid-column: 2/ span 4;
+    grid-row: 9;
+}
+
+.fourth {
+    border-top: 4px solid #8C0303;
+    border-bottom: 4px solid #8C0303;
+    border-left: 4px solid #8C0303;
+    background-color: #ac9484;
+}
+
+.four {
+    grid-column: 2/ span 4;
+    grid-row: 10;
+}
+
+.fifth {
+    border-top: 4px solid #733E32;
+    border-bottom: 4px solid #733E32;
+    border-right: 4px solid #733E32;
+    background-color: #f5e2d1;
+}
+.five {
+    grid-column: 2/ span 4;
+    grid-row: 11;
+}
+
+.sixth {
+    border-top: 4px solid #56471B;
+    border-bottom: 4px solid #56471B;
+    border-left: 4px solid #56471B;
+    background-color: #f2e3d0;
+}
+
+.six {
+    grid-column: 2/ span 4;
+    grid-row: 12;
+}
+
+.seventh {
+    border-top: 4px solid #6F2B38;
+    border-bottom: 4px solid #6F2B38;
+    border-right: 4px solid #6F2B38;
+    background-color: #edc8b9;
+}
+.seven {
+    grid-column: 2/ span 4;
+    grid-row: 13;
+}
+
+.eigth {
+    border-top: 4px solid #652E2B;
+    border-bottom: 4px solid #652E2B;
+    border-left: 4px solid #652E2B;
+    background-color: #ad866e;
+}
+
+.eight {
+    grid-column: 2/ span 4;
+    grid-row: 14;
+}
+
+.nineth {
+    border-top: 4px solid #5A352B;
+    border-bottom: 4px solid #5A352B;
+    border-right: 4px solid #5A352B;
+    background-color: #ad6760;
+}
+.nine {
+    grid-column: 2/ span 4;
+    grid-row: 15;
 }
