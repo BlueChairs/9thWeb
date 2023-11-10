@@ -108,6 +108,9 @@ font-style: normal;
     font-style: normal;
 }
 
+
+
+
 * {
     box-sizing: border-box;
   }
@@ -419,6 +422,22 @@ font-style: normal;
     margin: 0;
 }
 
+.menu2 {
+    width: 610px;
+    height: 825px;
+    padding: 10px;
+    border: 5px solid #eabc58;
+    margin: 0;
+}
+
+.menu3 {
+    width: 610px;
+    height: 1600px;
+    padding: 10px;
+    border: 5px solid #eabc58;
+    margin: 0;
+}
+
 .place {
     grid-column: 3/ span 2;
     grid-row: 5;
@@ -427,5 +446,10 @@ font-style: normal;
 
 .t {
     padding: 10px;
+}
+
+.car3 {
+    grid-column: 3/ span 2;
+    grid-row: 6;
 }
 
