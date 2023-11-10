@@ -394,3 +394,38 @@ font-style: normal;
     grid-column: 3/ span 2;
     grid-row: 5;
 }
+
+
+
+
+
+.above{
+    grid-column: 2/ span 4;
+    grid-row: 4;
+    padding: 10;
+}
+
+.yay {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.menu {
+    width: 610px;
+    height: 850px;
+    padding: 10px;
+    border: 5px solid #eabc58;
+    margin: 0;
+}
+
+.place {
+    grid-column: 3/ span 2;
+    grid-row: 5;
+    padding: 20px;
+}
+
+.t {
+    padding: 10px;
+}
+
