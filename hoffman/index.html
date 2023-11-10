@@ -11,6 +11,9 @@
     
 </head>
 <body class="body">
+
+
+    
     
     <div class="grid-container">
         <div class="grid-item logo">
@@ -26,7 +29,7 @@
             <li><a class="wed" href="pastries.html">Pastries</a></li>
             <li><a class="wed" href="dessertscookies.html">Desserts & Cookies</a></li>
             <li><a class="wed" href="breakfeastlunch.html">Breakfeast & Lunch</a></li>
-            <li><a class="nov in" href="index.html">Thank You!</a></li>
+            <li class="nov in"><a href="index.html">Thank You!</a></li>
             </center>
         </ul>
         </div>
@@ -103,6 +106,8 @@
         </button>
     </div>
     </div>
+
+
     
     <div class="grid-item info">
         <center>
@@ -118,7 +123,24 @@
             
             <p>Hoffman’s Fine Cakes and Pastries was established in December 1984 in downtown Kirkland and moved to the city of 
                 Redmond in 2016.</p>
+                
+                <button onclick="greet()">Click Here!</button>
+                <p id="here"></p>
         </center>
+
+        
+    <script>
+        function greet() {
+          let text;
+          let person = prompt("Please enter your name:", "Your name");
+          if (person == null || person == "") {
+            text = "Cancelled";
+          } else {
+            text = "Hello " + person + ". Welcome to Hoffmans, a Taste of Europe in the Heart of Redmond";
+          }
+          document.getElementById("here").innerHTML = text;
+        }
+        </script>
     </div>
 
     <div class="grid-item special"><center>
